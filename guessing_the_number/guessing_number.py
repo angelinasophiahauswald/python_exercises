@@ -26,7 +26,7 @@ def iniciate_game(ran):
     for i in range(0,5):
         print("Guess a number")
         num = input()
-        print(guessing_number(num, 3))
+        print(guessing_number(num, ran))
 
 if __name__ == "__main__":
     ran = random.randint(0,100)
